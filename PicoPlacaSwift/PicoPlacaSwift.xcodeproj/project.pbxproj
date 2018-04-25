@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030CD5A0208E389400085925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD59F208E389400085925 /* AppDelegate.swift */; };
+		030CD5A2208E389400085925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5A1208E389400085925 /* ViewController.swift */; };
+		030CD5A5208E389400085925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030CD5A3208E389400085925 /* Main.storyboard */; };
+		030CD5A7208E389400085925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030CD5A6208E389400085925 /* Assets.xcassets */; };
+		030CD5AA208E389400085925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030CD5A8208E389400085925 /* LaunchScreen.storyboard */; };
+		030CD5B5208E389400085925 /* PicoPlacaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5B4208E389400085925 /* PicoPlacaSwiftTests.swift */; };
+		030CD5C0208E389400085925 /* PicoPlacaSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5BF208E389400085925 /* PicoPlacaSwiftUITests.swift */; };
+		030CD5CE208E392F00085925 /* RestrictionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5CD208E392F00085925 /* RestrictionsTest.swift */; };
+		030CD5D0208E3C9200085925 /* UtilitiesPlateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */; };
+		030CD5D1208E411C00085925 /* UtilitiesPlateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */; };
+		03B777A12090F1480073961B /* EvaluatedCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B777A02090F1480073961B /* EvaluatedCar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030CD5B1208E389400085925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030CD594208E389400085925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030CD59B208E389400085925;
+			remoteInfo = PicoPlacaSwift;
+		};
+		030CD5BC208E389400085925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030CD594208E389400085925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030CD59B208E389400085925;
+			remoteInfo = PicoPlacaSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030CD59C208E389400085925 /* PicoPlacaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicoPlacaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030CD59F208E389400085925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030CD5A1208E389400085925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		030CD5A4208E389400085925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030CD5A6208E389400085925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030CD5A9208E389400085925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030CD5AB208E389400085925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030CD5B0208E389400085925 /* PicoPlacaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicoPlacaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030CD5B4208E389400085925 /* PicoPlacaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoPlacaSwiftTests.swift; sourceTree = "<group>"; };
+		030CD5B6208E389400085925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030CD5BB208E389400085925 /* PicoPlacaSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicoPlacaSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030CD5BF208E389400085925 /* PicoPlacaSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoPlacaSwiftUITests.swift; sourceTree = "<group>"; };
+		030CD5C1208E389400085925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030CD5CD208E392F00085925 /* RestrictionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionsTest.swift; sourceTree = "<group>"; };
+		030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesPlateManager.swift; sourceTree = "<group>"; };
+		03B777A02090F1480073961B /* EvaluatedCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatedCar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030CD599208E389400085925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CD5AD208E389400085925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CD5B8208E389400085925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030CD593208E389400085925 = {
+			isa = PBXGroup;
+			children = (
+				030CD59E208E389400085925 /* PicoPlacaSwift */,
+				030CD5B3208E389400085925 /* PicoPlacaSwiftTests */,
+				030CD5BE208E389400085925 /* PicoPlacaSwiftUITests */,
+				030CD59D208E389400085925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030CD59D208E389400085925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030CD59C208E389400085925 /* PicoPlacaSwift.app */,
+				030CD5B0208E389400085925 /* PicoPlacaSwiftTests.xctest */,
+				030CD5BB208E389400085925 /* PicoPlacaSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030CD59E208E389400085925 /* PicoPlacaSwift */ = {
+			isa = PBXGroup;
+			children = (
+				030CD59F208E389400085925 /* AppDelegate.swift */,
+				030CD5A1208E389400085925 /* ViewController.swift */,
+				030CD5A3208E389400085925 /* Main.storyboard */,
+				030CD5A6208E389400085925 /* Assets.xcassets */,
+				030CD5A8208E389400085925 /* LaunchScreen.storyboard */,
+				030CD5AB208E389400085925 /* Info.plist */,
+				030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */,
+				03B777A02090F1480073961B /* EvaluatedCar.swift */,
+			);
+			path = PicoPlacaSwift;
+			sourceTree = "<group>";
+		};
+		030CD5B3208E389400085925 /* PicoPlacaSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				030CD5B4208E389400085925 /* PicoPlacaSwiftTests.swift */,
+				030CD5B6208E389400085925 /* Info.plist */,
+				030CD5CD208E392F00085925 /* RestrictionsTest.swift */,
+			);
+			path = PicoPlacaSwiftTests;
+			sourceTree = "<group>";
+		};
+		030CD5BE208E389400085925 /* PicoPlacaSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030CD5BF208E389400085925 /* PicoPlacaSwiftUITests.swift */,
+				030CD5C1208E389400085925 /* Info.plist */,
+			);
+			path = PicoPlacaSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030CD59B208E389400085925 /* PicoPlacaSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030CD5C4208E389400085925 /* Build configuration list for PBXNativeTarget "PicoPlacaSwift" */;
+			buildPhases = (
+				030CD598208E389400085925 /* Sources */,
+				030CD599208E389400085925 /* Frameworks */,
+				030CD59A208E389400085925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicoPlacaSwift;
+			productName = PicoPlacaSwift;
+			productReference = 030CD59C208E389400085925 /* PicoPlacaSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030CD5AF208E389400085925 /* PicoPlacaSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030CD5C7208E389400085925 /* Build configuration list for PBXNativeTarget "PicoPlacaSwiftTests" */;
+			buildPhases = (
+				030CD5AC208E389400085925 /* Sources */,
+				030CD5AD208E389400085925 /* Frameworks */,
+				030CD5AE208E389400085925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030CD5B2208E389400085925 /* PBXTargetDependency */,
+			);
+			name = PicoPlacaSwiftTests;
+			productName = PicoPlacaSwiftTests;
+			productReference = 030CD5B0208E389400085925 /* PicoPlacaSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030CD5BA208E389400085925 /* PicoPlacaSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030CD5CA208E389400085925 /* Build configuration list for PBXNativeTarget "PicoPlacaSwiftUITests" */;
+			buildPhases = (
+				030CD5B7208E389400085925 /* Sources */,
+				030CD5B8208E389400085925 /* Frameworks */,
+				030CD5B9208E389400085925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030CD5BD208E389400085925 /* PBXTargetDependency */,
+			);
+			name = PicoPlacaSwiftUITests;
+			productName = PicoPlacaSwiftUITests;
+			productReference = 030CD5BB208E389400085925 /* PicoPlacaSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030CD594208E389400085925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andres Efrain Chango Macas";
+				TargetAttributes = {
+					030CD59B208E389400085925 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					030CD5AF208E389400085925 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 030CD59B208E389400085925;
+					};
+					030CD5BA208E389400085925 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 030CD59B208E389400085925;
+					};
+				};
+			};
+			buildConfigurationList = 030CD597208E389400085925 /* Build configuration list for PBXProject "PicoPlacaSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030CD593208E389400085925;
+			productRefGroup = 030CD59D208E389400085925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030CD59B208E389400085925 /* PicoPlacaSwift */,
+				030CD5AF208E389400085925 /* PicoPlacaSwiftTests */,
+				030CD5BA208E389400085925 /* PicoPlacaSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030CD59A208E389400085925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CD5AA208E389400085925 /* LaunchScreen.storyboard in Resources */,
+				030CD5A7208E389400085925 /* Assets.xcassets in Resources */,
+				030CD5A5208E389400085925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CD5AE208E389400085925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CD5B9208E389400085925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030CD598208E389400085925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CD5A2208E389400085925 /* ViewController.swift in Sources */,
+				030CD5D0208E3C9200085925 /* UtilitiesPlateManager.swift in Sources */,
+				03B777A12090F1480073961B /* EvaluatedCar.swift in Sources */,
+				030CD5A0208E389400085925 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CD5AC208E389400085925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CD5CE208E392F00085925 /* RestrictionsTest.swift in Sources */,
+				030CD5D1208E411C00085925 /* UtilitiesPlateManager.swift in Sources */,
+				030CD5B5208E389400085925 /* PicoPlacaSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CD5B7208E389400085925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CD5C0208E389400085925 /* PicoPlacaSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030CD5B2208E389400085925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030CD59B208E389400085925 /* PicoPlacaSwift */;
+			targetProxy = 030CD5B1208E389400085925 /* PBXContainerItemProxy */;
+		};
+		030CD5BD208E389400085925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030CD59B208E389400085925 /* PicoPlacaSwift */;
+			targetProxy = 030CD5BC208E389400085925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030CD5A3208E389400085925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CD5A4208E389400085925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030CD5A8208E389400085925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CD5A9208E389400085925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030CD5C2208E389400085925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030CD5C3208E389400085925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030CD5C5208E389400085925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PicoPlacaSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreschango.ppswift.PicoPlacaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030CD5C6208E389400085925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PicoPlacaSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreschango.ppswift.PicoPlacaSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		030CD5C8208E389400085925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicoPlacaSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreschango.ppswift.PicoPlacaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicoPlacaSwift.app/PicoPlacaSwift";
+			};
+			name = Debug;
+		};
+		030CD5C9208E389400085925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicoPlacaSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreschango.ppswift.PicoPlacaSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicoPlacaSwift.app/PicoPlacaSwift";
+			};
+			name = Release;
+		};
+		030CD5CB208E389400085925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicoPlacaSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreschango.ppswift.PicoPlacaSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicoPlacaSwift;
+			};
+			name = Debug;
+		};
+		030CD5CC208E389400085925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicoPlacaSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreschango.ppswift.PicoPlacaSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicoPlacaSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030CD597208E389400085925 /* Build configuration list for PBXProject "PicoPlacaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CD5C2208E389400085925 /* Debug */,
+				030CD5C3208E389400085925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030CD5C4208E389400085925 /* Build configuration list for PBXNativeTarget "PicoPlacaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CD5C5208E389400085925 /* Debug */,
+				030CD5C6208E389400085925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030CD5C7208E389400085925 /* Build configuration list for PBXNativeTarget "PicoPlacaSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CD5C8208E389400085925 /* Debug */,
+				030CD5C9208E389400085925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030CD5CA208E389400085925 /* Build configuration list for PBXNativeTarget "PicoPlacaSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CD5CB208E389400085925 /* Debug */,
+				030CD5CC208E389400085925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030CD594208E389400085925 /* Project object */;
+}
