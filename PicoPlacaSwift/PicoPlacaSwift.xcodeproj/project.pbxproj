@@ -17,7 +17,6 @@
 		030CD5CE208E392F00085925 /* RestrictionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5CD208E392F00085925 /* RestrictionsTest.swift */; };
 		030CD5D0208E3C9200085925 /* UtilitiesPlateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */; };
 		030CD5D1208E411C00085925 /* UtilitiesPlateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */; };
-		03B777A12090F1480073961B /* EvaluatedCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B777A02090F1480073961B /* EvaluatedCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 		030CD5C1208E389400085925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		030CD5CD208E392F00085925 /* RestrictionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionsTest.swift; sourceTree = "<group>"; };
 		030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesPlateManager.swift; sourceTree = "<group>"; };
-		03B777A02090F1480073961B /* EvaluatedCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatedCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				030CD5A8208E389400085925 /* LaunchScreen.storyboard */,
 				030CD5AB208E389400085925 /* Info.plist */,
 				030CD5CF208E3C9200085925 /* UtilitiesPlateManager.swift */,
-				03B777A02090F1480073961B /* EvaluatedCar.swift */,
 			);
 			path = PicoPlacaSwift;
 			sourceTree = "<group>";
@@ -271,7 +268,6 @@
 			files = (
 				030CD5A2208E389400085925 /* ViewController.swift in Sources */,
 				030CD5D0208E3C9200085925 /* UtilitiesPlateManager.swift in Sources */,
-				03B777A12090F1480073961B /* EvaluatedCar.swift in Sources */,
 				030CD5A0208E389400085925 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
